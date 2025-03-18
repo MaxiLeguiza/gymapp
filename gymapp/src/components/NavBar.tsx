@@ -3,6 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 export const NavBar = () => {
   return (
+    
     <Navbar className="bg-body-tertiary" data-bs-theme="dark">
       <Container>
         <Navbar.Brand href="#home">Navbar with text</Navbar.Brand>
