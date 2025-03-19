@@ -1,20 +1,25 @@
 import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Nav";
 
 export const SubNavBar = () => {
   return (
-    <Container className="bg-body-tertiary" data-bs-theme="dark">
-      <Nav variant="underline" defaultActiveKey="/home" className="justify-content-center">
-        <Nav.Item>
-          <Nav.Link href="/home">Turno</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-1">Rutina</Nav.Link>
-        </Nav.Item>
-        <Nav.Item>
-          <Nav.Link eventKey="link-2" >Tienda</Nav.Link>
-        </Nav.Item>
-      </Nav>
-    </Container>
+    <Navbar
+      variant="underline"
+      defaultActiveKey="/home"
+      className="bg-body-tertiary"
+      data-bs-theme="dark"
+    >
+      <Container>
+        <Navbar.Item>
+          <Navbar.Link href="/home">Turno</Navbar.Link>
+        </Navbar.Item>
+        <Navbar.Item>
+          <Navbar.Link eventKey="link-1">Rutina</Navbar.Link>
+        </Navbar.Item>
+        <Navbar.Item>
+          <Navbar.Link eventKey="link-2">Tienda</Navbar.Link>
+        </Navbar.Item>
+      </Container>
+    </Navbar>
   );
 };
