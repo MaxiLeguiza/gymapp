@@ -6,13 +6,13 @@ export const NavBar = () => {
     
     <Navbar className="bg-body-tertiary" data-bs-theme="dark">
       <Container>
-        <Navbar.Brand href="#home">Navbar with text</Navbar.Brand>
+        <Navbar.Brand href="#home">Nombre de GYM</Navbar.Brand>
         <Navbar.Toggle />
-        <Navbar.Collapse className="justify-content-end">
+      {/** <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
-            Signed in as: <a href="#login">Mark Otto</a>
+            Signed in as: <a href="#login"> Usuario </a>
           </Navbar.Text>
-        </Navbar.Collapse>
+        </Navbar.Collapse> */} 
       </Container>
     </Navbar>
   );

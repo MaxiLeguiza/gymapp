@@ -1,5 +1,5 @@
 import Navbar from "react-bootstrap/Nav";
-
+import "./CSS/subNav.css"
 export const SubNavBar = () => {
   return (
     <Navbar
@@ -8,7 +8,7 @@ export const SubNavBar = () => {
       className="bg-body-tertiary justify-content-center d-flex flex-column flex-sm-row"
       data-bs-theme="dark"
     >
-      <div className="container-fluid">
+      <div className="container-fluid"  >
         {/* Row to hold the icons */}
         <div className="row w-100 justify-content-center">
           {/* First column */}
