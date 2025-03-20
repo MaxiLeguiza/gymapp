@@ -9,7 +9,6 @@ export const SubNavBar = () => {
       className="bg-body-tertiary"
       data-bs-theme="dark"
     >
-      <Container>
         <Navbar.Item>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +44,6 @@ export const SubNavBar = () => {
           </svg>
           <Navbar.Link eventKey="link-2">Tienda</Navbar.Link>
         </Navbar.Item>
-      </Container>
     </Navbar>
   );
 };
