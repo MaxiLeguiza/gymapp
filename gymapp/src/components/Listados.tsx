@@ -5,7 +5,7 @@ export const Listados = () => {
   return (
     <Container fluid="md">
       <ListGroup>
-      <ListGroup.Item className="text-center" fluid="md">Rutina</ListGroup.Item>
+      <ListGroup.Item className="text-center">Rutina</ListGroup.Item>
       <br></br>
       <ListGroup.Item action variant="secondary" className="text-center" >
         Dia uno
