@@ -6,7 +6,7 @@ export const NavBar = () => {
     
     <Navbar className="bg-body-tertiary" data-bs-theme="dark">
       <Container>
-        <Navbar.Brand href="#home">Nombre de GYM</Navbar.Brand>
+        <Navbar.Brand>Nombre de GYM</Navbar.Brand>
         <Navbar.Toggle />
       {/** <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
