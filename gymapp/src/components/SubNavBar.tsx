@@ -2,8 +2,8 @@ import Navbar from "react-bootstrap/Nav";
 import "./CSS/subNav.css"
 export const SubNavBar = () => {
   return (
+    <div className="subNav">
     <Navbar
-     bg="primary"
       variant="underline"
       defaultActiveKey="/home"
       className="bg-body-tertiary justify-content-center d-flex flex-column flex-sm-row"
@@ -70,5 +70,6 @@ export const SubNavBar = () => {
         </div>
       </div>
     </Navbar>
+    </div>
   );
 };
